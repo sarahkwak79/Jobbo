@@ -12,6 +12,7 @@ import {
 
 const Home = () => {
   const router = useRouter();
+  
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.lightWhite }}>
       <Stack.Screen
@@ -38,6 +39,7 @@ const Home = () => {
           <Welcome />
 
           <Popularjobs />
+          
           <Nearbyjobs />
         </View>
       </ScrollView>
