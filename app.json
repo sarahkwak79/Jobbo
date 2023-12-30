@@ -8,6 +8,22 @@
       "expo-router"
     ],
     "name": "RN",
-    "slug": "RN"
+    "slug": "RN",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "04ec004b-72f7-4342-a61c-2ae782954df2"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/04ec004b-72f7-4342-a61c-2ae782954df2"
+    },
+    "android": {},
+    "ios": {}
   }
 }
