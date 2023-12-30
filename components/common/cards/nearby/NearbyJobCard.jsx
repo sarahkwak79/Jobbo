@@ -8,7 +8,7 @@ const NearbyJobCard = ({ job, handleNavigate }) => {
   return (
     <TouchableOpacity style={styles.container} onPress={handleNavigate}>
       <TouchableOpacity style={styles.logoContainer}>
-        <Image
+        <Image 
           source={{
             uri: checkImageURL(job.employer_logo)
               ? job.employer_logo

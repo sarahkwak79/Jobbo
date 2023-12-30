@@ -35,7 +35,7 @@ const Nearbyjobs = () => {
             handleNavigate={() => router.push(`/job-details/${job.job_id}`)}
             />
           ))
-        )}
+        )} 
       </View>
     </View>
   );
